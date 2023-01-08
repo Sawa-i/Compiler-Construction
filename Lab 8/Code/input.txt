@@ -1,0 +1,14 @@
+E -> TE'
+
+E' -> +TE'
+| -TE'
+| e
+
+T -> FT'
+
+T' -> *FT' | /FT' | e
+
+F -> (E) | id | num | e
+
+
+
